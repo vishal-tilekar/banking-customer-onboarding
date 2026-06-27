@@ -145,7 +145,7 @@ CREATE SEQUENCE bcos_ucic_seq
     NOCYCLE;
 
 -- -------------------------------------------------------
--- INDEXES for Performance
+-- INDEXES 
 -- -------------------------------------------------------
 CREATE INDEX idx_bcos_cust_pan       ON bcos_customers(pan_number);
 CREATE INDEX idx_bcos_cust_aadhar    ON bcos_customers(aadhar_number);
